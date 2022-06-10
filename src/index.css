@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-content p,
+.post-content ul,
+.post-content ol {
+  @apply mb-2.5;
+}
+.post-content ul,
+.post-content ol {
+  @apply ml-5;
+}
+.post-content ol li {
+  @apply list-decimal;
+}
+.post-content ul li {
+  @apply list-disc;
+}
+
+.post-content h2,
+.post-content h3 {
+  @apply mt-5 mb-2.5 font-bold;
+}
+.post-content h2 {
+  @apply text-2xl;
+}
+.post-content h3 {
+  @apply text-xl;
+}
